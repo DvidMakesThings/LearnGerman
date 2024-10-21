@@ -1,0 +1,662 @@
+{
+    "befehlen": {
+        "Präsens": "befehle",
+        "Präteritum": "befahl",
+        "Perfect": "hat befohlen",
+        "meaning": "parancsol"
+    },
+    "beginnen": {
+        "Präsens": "beginne",
+        "Präteritum": "begann",
+        "Perfect": "hat begonnen",
+        "meaning": "elkezd(ődik)"
+    },
+    "beißen": {
+        "Präsens": "beiße",
+        "Präteritum": "biss",
+        "Perfect": "hat gebissen",
+        "meaning": "harap"
+    },
+    "beschreiben": {
+        "Präsens": "beschreibe",
+        "Präteritum": "beschrieb",
+        "Perfect": "hat beschrieben",
+        "meaning": "leír"
+    },
+    "bieten": {
+        "Präsens": "biete",
+        "Präteritum": "bot",
+        "Perfect": "hat geboten",
+        "meaning": "nyújt / kínál"
+    },
+    "binden": {
+        "Präsens": "binde",
+        "Präteritum": "band",
+        "Perfect": "hat gebunden",
+        "meaning": "(meg)köt"
+    },
+    "bleiben": {
+        "Präsens": "bleibe",
+        "Präteritum": "blieb",
+        "Perfect": "ist geblieben",
+        "meaning": "marad"
+    },
+    "brechen": {
+        "Präsens": "breche",
+        "Präteritum": "brach",
+        "Perfect": "hat gebrochen",
+        "meaning": "eltör valamit"
+    },
+    "dürfen": {
+        "Präsens": "darf",
+        "Präteritum": "durfte",
+        "Perfect": "hat gedurft",
+        "meaning": "szabad (csinálni)"
+    },
+    "empfangen": {
+        "Präsens": "empfange",
+        "Präteritum": "empfing",
+        "Perfect": "hat empfangen",
+        "meaning": "fogad"
+    },
+    "empfehlen": {
+        "Präsens": "empfehle",
+        "Präteritum": "empfahl",
+        "Perfect": "hat empfohlen",
+        "meaning": "ajánl"
+    },
+    "empfinden": {
+        "Präsens": "empfinde",
+        "Präteritum": "empfand",
+        "Perfect": "hat empfunden",
+        "meaning": "érez / észlel vmit"
+    },
+    "erschrecken": {
+        "Präsens": "erschrecke",
+        "Präteritum": "erschrak",
+        "Perfect": "ist erschrocken",
+        "meaning": "megijed"
+    },
+    "erziehen": {
+        "Präsens": "erziehe",
+        "Präteritum": "erzog",
+        "Perfect": "hat erzogen",
+        "meaning": "(fel)nevel"
+    },
+    "essen": {
+        "Präsens": "esse",
+        "Präteritum": "aß",
+        "Perfect": "hat gegessen",
+        "meaning": "eszik"
+    },
+    "fahren": {
+        "Präsens": "fahre",
+        "Präteritum": "fuhr",
+        "Perfect": "ist gefahren",
+        "meaning": "vezet"
+    },
+    "fallen": {
+        "Präsens": "falle",
+        "Präteritum": "fiel",
+        "Perfect": "ist gefallen",
+        "meaning": "esik"
+    },
+    "fangen": {
+        "Präsens": "fange",
+        "Präteritum": "fing",
+        "Perfect": "hat gefangen",
+        "meaning": "(meg)fog / (el)kap"
+    },
+    "fernsehen": {
+        "Präsens": "sehe fern",
+        "Präteritum": "sah fern",
+        "Perfect": "hat ferngesehen",
+        "meaning": "TV-t néz"
+    },
+    "finden": {
+        "Präsens": "finde",
+        "Präteritum": "fand",
+        "Perfect": "hat gefunden",
+        "meaning": "talál"
+    },
+    "fliegen": {
+        "Präsens": "fliege",
+        "Präteritum": "flog",
+        "Perfect": "ist geflogen",
+        "meaning": "repül"
+    },
+    "fliehen": {
+        "Präsens": "fliehe",
+        "Präteritum": "floh",
+        "Perfect": "ist geflohen",
+        "meaning": "menekül"
+    },
+    "fließen": {
+        "Präsens": "fließe",
+        "Präteritum": "floß",
+        "Perfect": "ist geflossen",
+        "meaning": "folyik"
+    },
+    "frieren": {
+        "Präsens": "friere",
+        "Präteritum": "fror",
+        "Perfect": "hat gefroren",
+        "meaning": "fázik / megfagy"
+    },
+    "geben": {
+        "Präsens": "gebe",
+        "Präteritum": "gab",
+        "Perfect": "hat gegeben",
+        "meaning": "ad"
+    },
+    "gefallen": {
+        "Präsens": "gefalle",
+        "Präteritum": "gefiel",
+        "Perfect": "hat gefallen",
+        "meaning": "tetszik"
+    },
+    "gehen": {
+        "Präsens": "gehe",
+        "Präteritum": "ging",
+        "Perfect": "ist gegangen",
+        "meaning": "megy"
+    },
+    "gelingen": {
+        "Präsens": "gelinge",
+        "Präteritum": "gelang",
+        "Perfect": "ist gelungen",
+        "meaning": "sikerül"
+    },
+    "genießen": {
+        "Präsens": "genieße",
+        "Präteritum": "genoss",
+        "Perfect": "hat genossen",
+        "meaning": "élvez"
+    },
+    "geschehen": {
+        "Präsens": "geschehe",
+        "Präteritum": "geschah",
+        "Perfect": "ist geschehen",
+        "meaning": "történik"
+    },
+    "gewinnen": {
+        "Präsens": "gewinne",
+        "Präteritum": "gewann",
+        "Perfect": "hat gewonnen",
+        "meaning": "nyer"
+    },
+    "gießen": {
+        "Präsens": "gieße",
+        "Präteritum": "goss",
+        "Perfect": "hat gegossen",
+        "meaning": "önt / tölt"
+    },
+    "gleichen": {
+        "Präsens": "gleiche",
+        "Präteritum": "glich",
+        "Perfect": "hat geglichen",
+        "meaning": "hasonlít"
+    },
+    "greifen": {
+        "Präsens": "greife",
+        "Präteritum": "griff",
+        "Perfect": "hat gegriffen",
+        "meaning": "megragad / (meg)fog"
+    },
+    "haben": {
+        "Präsens": "habe",
+        "Präteritum": "hatte",
+        "Perfect": "hat gehabt",
+        "meaning": "birtokol vmit / van neki"
+    },
+    "halten": {
+        "Präsens": "halte",
+        "Präteritum": "hielt",
+        "Perfect": "hat gehalten",
+        "meaning": "tart"
+    },
+    "hängen": {
+        "Präsens": "hänge",
+        "Präteritum": "hing",
+        "Perfect": "hat gehangen",
+        "meaning": "lóg / függ"
+    },
+    "heißen": {
+        "Präsens": "heiße",
+        "Präteritum": "hieß",
+        "Perfect": "hat geheißen",
+        "meaning": "hívják vhogyan"
+    },
+    "helfen": {
+        "Präsens": "helfe",
+        "Präteritum": "half",
+        "Perfect": "hat geholfen",
+        "meaning": "segít"
+    },
+    "kommen": {
+        "Präsens": "komme",
+        "Präteritum": "kam",
+        "Perfect": "ist gekommen",
+        "meaning": "jön"
+    },
+    "können": {
+        "Präsens": "kann",
+        "Präteritum": "konnte",
+        "Perfect": "hat gekonnt",
+        "meaning": "tud (csinálni) / (csinál)hat"
+    },
+    "kriechen": {
+        "Präsens": "krieche",
+        "Präteritum": "kroch",
+        "Perfect": "ist gekrochen",
+        "meaning": "mászik / kúszik"
+    },
+    "laden": {
+        "Präsens": "lade",
+        "Präteritum": "lud",
+        "Perfect": "hat geladen",
+        "meaning": "meghív"
+    },
+    "lassen": {
+        "Präsens": "lasse",
+        "Präteritum": "ließ",
+        "Perfect": "hat gelassen",
+        "meaning": "hagy"
+    },
+    "laufen": {
+        "Präsens": "laufe",
+        "Präteritum": "lief",
+        "Perfect": "ist gelaufen",
+        "meaning": "fut"
+    },
+    "leiden": {
+        "Präsens": "leide",
+        "Präteritum": "litt",
+        "Perfect": "hat gelitten",
+        "meaning": "szenved"
+    },
+    "leihen": {
+        "Präsens": "leihe",
+        "Präteritum": "lieh",
+        "Perfect": "hat geliehen",
+        "meaning": "kölcsönöz"
+    },
+    "lesen": {
+        "Präsens": "lese",
+        "Präteritum": "las",
+        "Perfect": "hat gelesen",
+        "meaning": "olvas"
+    },
+    "liegen": {
+        "Präsens": "liege",
+        "Präteritum": "lag",
+        "Perfect": "hat gelegen",
+        "meaning": "fekszik"
+    },
+    "lügen": {
+        "Präsens": "lüge",
+        "Präteritum": "log",
+        "Perfect": "hat gelogen",
+        "meaning": "hazudik"
+    },
+    "mögen": {
+        "Präsens": "mag",
+        "Präteritum": "mochte",
+        "Perfect": "hat gemocht",
+        "meaning": "szeret (csinálni)"
+    },
+    "müssen": {
+        "Präsens": "muss",
+        "Präteritum": "musste",
+        "Perfect": "hat gemusst",
+        "meaning": "kell (csinálnia)"
+    },
+    "nehmen": {
+        "Präsens": "nehme",
+        "Präteritum": "nahm",
+        "Perfect": "hat genommen",
+        "meaning": "fog / vesz"
+    },
+    "pfeifen": {
+        "Präsens": "pfeife",
+        "Präteritum": "pfiff",
+        "Perfect": "hat gepfiffen",
+        "meaning": "fütyül"
+    },
+    "raten": {
+        "Präsens": "rate",
+        "Präteritum": "riet",
+        "Perfect": "hat geraten",
+        "meaning": "tanácsol"
+    },
+    "reißen": {
+        "Präsens": "reiße",
+        "Präteritum": "riss",
+        "Perfect": "hat gerissen",
+        "meaning": "szakít / széttép"
+    },
+    "reiten": {
+        "Präsens": "reite",
+        "Präteritum": "ritt",
+        "Perfect": "ist geritten",
+        "meaning": "lovagol"
+    },
+    "riechen": {
+        "Präsens": "rieche",
+        "Präteritum": "roch",
+        "Perfect": "hat gerochen",
+        "meaning": "(meg)szagol"
+    },
+    "rufen": {
+        "Präsens": "rufe",
+        "Präteritum": "rief",
+        "Perfect": "hat gerufen",
+        "meaning": "kiált / hív"
+    },
+    "scheinen": {
+        "Präsens": "scheine",
+        "Präteritum": "schien",
+        "Perfect": "hat geschienen",
+        "meaning": "süt"
+    },
+    "schieben": {
+        "Präsens": "schiebe",
+        "Präteritum": "schob",
+        "Perfect": "hat geschoben",
+        "meaning": "tol"
+    },
+    "schießen": {
+        "Präsens": "schieße",
+        "Präteritum": "schoss",
+        "Perfect": "hat geschossen",
+        "meaning": "lő"
+    },
+    "schlafen": {
+        "Präsens": "schlafe",
+        "Präteritum": "schlief",
+        "Perfect": "hat geschlafen",
+        "meaning": "elalszik"
+    },
+    "schlagen": {
+        "Präsens": "schlage",
+        "Präteritum": "schlug",
+        "Perfect": "hat geschlagen",
+        "meaning": "üt / ver"
+    },
+    "schließen": {
+        "Präsens": "schließe",
+        "Präteritum": "schloss",
+        "Perfect": "hat geschlossen",
+        "meaning": "zár"
+    },
+    "schneiden": {
+        "Präsens": "schneide",
+        "Präteritum": "schnitt",
+        "Perfect": "hat geschnitten",
+        "meaning": "vág"
+    },
+    "schreiben": {
+        "Präsens": "schreibe",
+        "Präteritum": "schrieb",
+        "Perfect": "hat geschrieben",
+        "meaning": "ír"
+    },
+    "schreiten": {
+        "Präsens": "schreite",
+        "Präteritum": "schritt",
+        "Perfect": "ist geschritten",
+        "meaning": "lép(ked)"
+    },
+    "schweigen": {
+        "Präsens": "schweige",
+        "Präteritum": "schwieg",
+        "Perfect": "hat geschwiegen",
+        "meaning": "hallgat"
+    },
+    "schwimmen": {
+        "Präsens": "schwimme",
+        "Präteritum": "schwamm",
+        "Perfect": "ist geschwommen",
+        "meaning": "úszik"
+    },
+    "sehen": {
+        "Präsens": "sehe",
+        "Präteritum": "sah",
+        "Perfect": "hat gesehen",
+        "meaning": "lát / néz"
+    },
+    "sein": {
+        "Präsens": "bin",
+        "Präteritum": "war",
+        "Perfect": "ist gewesen",
+        "meaning": "van (=létige)"
+    },
+    "singen": {
+        "Präsens": "singe",
+        "Präteritum": "sang",
+        "Perfect": "hat gesungen",
+        "meaning": "énekel"
+    },
+    "sinken": {
+        "Präsens": "sinke",
+        "Präteritum": "sank",
+        "Perfect": "ist gesunken",
+        "meaning": "süllyed"
+    },
+    "sitzen": {
+        "Präsens": "sitze",
+        "Präteritum": "saß",
+        "Perfect": "hat gesessen",
+        "meaning": "ül"
+    },
+    "sollen": {
+        "Präsens": "soll",
+        "Präteritum": "sollte",
+        "Perfect": "hat gesollt",
+        "meaning": "kell (csinálni)"
+    },
+    "sprechen": {
+        "Präsens": "spreche",
+        "Präteritum": "sprach",
+        "Perfect": "hat gesprochen",
+        "meaning": "beszél"
+    },
+    "springen": {
+        "Präsens": "springe",
+        "Präteritum": "sprang",
+        "Perfect": "ist gesprungen",
+        "meaning": "ugrik"
+    },
+    "stehen": {
+        "Präsens": "stehe",
+        "Präteritum": "stand",
+        "Perfect": "hat gestanden",
+        "meaning": "áll"
+    },
+    "stehlen": {
+        "Präsens": "stehle",
+        "Präteritum": "stahl",
+        "Perfect": "hat gestohlen",
+        "meaning": "lop"
+    },
+    "steigen": {
+        "Präsens": "steige",
+        "Präteritum": "stieg",
+        "Perfect": "ist gestiegen",
+        "meaning": "emelkedik"
+    },
+    "sterben": {
+        "Präsens": "sterbe",
+        "Präteritum": "starb",
+        "Perfect": "ist gestorben",
+        "meaning": "meghal"
+    },
+    "streiten": {
+        "Präsens": "streite",
+        "Präteritum": "stritt",
+        "Perfect": "hat gestritten",
+        "meaning": "veszekedik"
+    },
+    "tragen": {
+        "Präsens": "trage",
+        "Präteritum": "trug",
+        "Perfect": "hat getragen",
+        "meaning": "hord / visel"
+    },
+    "treffen": {
+        "Präsens": "treffe",
+        "Präteritum": "traf",
+        "Perfect": "hat getroffen",
+        "meaning": "találkozik"
+    },
+    "treten": {
+        "Präsens": "trete",
+        "Präteritum": "trat",
+        "Perfect": "ist getreten",
+        "meaning": "tapos / tipor"
+    },
+    "trinken": {
+        "Präsens": "trinke",
+        "Präteritum": "trank",
+        "Perfect": "hat getrunken",
+        "meaning": "iszik"
+    },
+    "trügen": {
+        "Präsens": "trüge",
+        "Präteritum": "trog",
+        "Perfect": "hat getrogen",
+        "meaning": "visz / hord(oz)"
+    },
+    "tun": {
+        "Präsens": "tue",
+        "Präteritum": "tat",
+        "Perfect": "hat getan",
+        "meaning": "csinál / cselekszik"
+    },
+    "unterbrechen": {
+        "Präsens": "unterbreche",
+        "Präteritum": "unterbrach",
+        "Perfect": "hat unterbrochen",
+        "meaning": "félbeszakít"
+    },
+    "unternehmen": {
+        "Präsens": "unternehme",
+        "Präteritum": "unternahm",
+        "Perfect": "hat unternommen",
+        "meaning": "(meg)tesz / vállalkozik"
+    },
+    "verbieten": {
+        "Präsens": "verbiete",
+        "Präteritum": "verbot",
+        "Perfect": "hat verboten",
+        "meaning": "megtilt / betilt"
+    },
+    "verderben": {
+        "Präsens": "verderbe",
+        "Präteritum": "verdarb",
+        "Perfect": "hat verdorben",
+        "meaning": "elront"
+    },
+    "vergessen": {
+        "Präsens": "vergesse",
+        "Präteritum": "vergaß",
+        "Perfect": "hat vergessen",
+        "meaning": "elfelejt"
+    },
+    "verlassen": {
+        "Präsens": "verlasse",
+        "Präteritum": "verließ",
+        "Perfect": "hat verlassen",
+        "meaning": "elhagy vkit/vmit"
+    },
+    "verlieren": {
+        "Präsens": "verliere",
+        "Präteritum": "verlor",
+        "Perfect": "hat verloren",
+        "meaning": "elveszít vmit/vkit"
+    },
+    "vermeiden": {
+        "Präsens": "vermeide",
+        "Präteritum": "vermied",
+        "Perfect": "hat vermieden",
+        "meaning": "elkerül"
+    },
+    "verzeihen": {
+        "Präsens": "verzeihe",
+        "Präteritum": "verzieh",
+        "Perfect": "hat verziehen",
+        "meaning": "megbocsát"
+    },
+    "wachsen": {
+        "Präsens": "wachse",
+        "Präteritum": "wuchs",
+        "Perfect": "ist gewachsen",
+        "meaning": "nő"
+    },
+    "waschen": {
+        "Präsens": "wasche",
+        "Präteritum": "wusch",
+        "Perfect": "hat gewaschen",
+        "meaning": "mos"
+    },
+    "weichen": {
+        "Präsens": "weiche",
+        "Präteritum": "wich",
+        "Perfect": "ist gewichen",
+        "meaning": "puha / lágy"
+    },
+    "werben": {
+        "Präsens": "werbe",
+        "Präteritum": "warb",
+        "Perfect": "hat geworben",
+        "meaning": "toboroz"
+    },
+    "werden": {
+        "Präsens": "werde",
+        "Präteritum": "wurde",
+        "Perfect": "ist geworden",
+        "meaning": "lesz / keletkezik"
+    },
+    "werfen": {
+        "Präsens": "werfe",
+        "Präteritum": "warf",
+        "Perfect": "hat geworfen",
+        "meaning": "dob / hajít"
+    },
+    "wiegen": {
+        "Präsens": "wiege",
+        "Präteritum": "wog",
+        "Perfect": "hat gewogen",
+        "meaning": "nyom"
+    },
+    "wissen": {
+        "Präsens": "weiß",
+        "Präteritum": "wusste",
+        "Perfect": "hat gewusst",
+        "meaning": "tud vmit / vmiről"
+    },
+    "wollen": {
+        "Präsens": "will",
+        "Präteritum": "wollte",
+        "Perfect": "hat gewollt",
+        "meaning": "akar"
+    },
+    "wringen": {
+        "Präsens": "wringe",
+        "Präteritum": "wrang",
+        "Perfect": "hat gewrungen",
+        "meaning": "kicsavarni"
+    },
+    "ziehen": {
+        "Präsens": "ziehe",
+        "Präteritum": "zog",
+        "Perfect": "hat gezogen",
+        "meaning": "húz"
+    },
+    "zwingen": {
+        "Präsens": "zwinge",
+        "Präteritum": "zwang",
+        "Perfect": "hat gezwungen",
+        "meaning": "kényszerít"
+    }
+}
