@@ -65,6 +65,54 @@ This guide will help you set up the necessary environment and tools to build and
     buildozer init
     ```
 
+6. **Install JDK 17:**
+    ```bash
+    sudo apt update
+    sudo apt install openjdk-17-jdk
+
+    ```
+
+    Set JAVA_HOME
+    ```bash
+    export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+    export PATH=$JAVA_HOME/bin:$PATH
+    source ~/.bashrc
+    ```
+
+    Verify the Installation: To check that the installation was successful and the correct version is being used, run:
+    ```bash
+    java -version
+
+    ```
+
+    Update Gradle Properties by adding this line to the end:
+    ```bash
+    org.gradle.java.home=/usr/lib/jvm/java-17-openjdk-amd64
+    ```
+
+    In build.gradle specify the Java version in the compileOptions:
+    ```bash
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    ```
+
+    In the buildozer.spec, specify the Java version:
+    Modify android.add_compile_options as:
+    ```bash
+    # (list) add java compile options
+    # this can for example be necessary when importing certain java libraries using the 'android.gradle_dependencies' option
+    # see https://developer.android.com/studio/write/java8-support for further information
+    android.add_compile_options = "sourceCompatibility = 17", "targetCompatibility = 17"
+    ```
+    
+    And specify android.jdk by adding this to the .spec file
+    ```bash
+    # (str) Android JDK version to use
+    android.jdk = /usr/lib/jvm/java-17-openjdk-amd64
+    ```
+
 ## Building the Project
 
 Navigate to the project directory and build the project:

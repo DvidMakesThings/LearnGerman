@@ -1,5 +1,4 @@
 .idea/
-build/
 .buildozer/
 .venv/
 bin/

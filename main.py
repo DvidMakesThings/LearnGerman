@@ -32,22 +32,22 @@ class VerbLearningApp(App):
         input_background_color = (0.9, 0.9, 0.9, 1)  # Light gray
 
         # Text input for the verb (user-fillable)
-        self.verb_input = TextInput(hint_text="Verb (user input)", multiline=False, font_size=22,
+        self.verb_input = TextInput(hint_text="Verb (user input)", multiline=False, font_size=52,
                         background_color=input_background_color, foreground_color=(0, 0, 0, 1))
         self.layout.add_widget(self.verb_input)
 
         # Text input for Präteritum form
-        self.prateritum_input = TextInput(hint_text="Präteritum", multiline=False, font_size=22,
+        self.prateritum_input = TextInput(hint_text="Präteritum", multiline=False, font_size=52,
                           background_color=input_background_color, foreground_color=(0, 0, 0, 1))
         self.layout.add_widget(self.prateritum_input)
 
         # Text input for Perfect form
-        self.perfect_input = TextInput(hint_text="Perfect", multiline=False, font_size=22,
+        self.perfect_input = TextInput(hint_text="Perfect", multiline=False, font_size=52,
                            background_color=input_background_color, foreground_color=(0, 0, 0, 1))
         self.layout.add_widget(self.perfect_input)
 
         # Text input for Meaning (shown for learning mode)
-        self.meaning_input = TextInput(hint_text="Meaning", multiline=False, font_size=22,
+        self.meaning_input = TextInput(hint_text="Meaning", multiline=False, font_size=52,
                            readonly=True, background_color=input_background_color, foreground_color=(0, 0, 0, 1))
         self.layout.add_widget(self.meaning_input)
 
@@ -55,17 +55,17 @@ class VerbLearningApp(App):
         self.set_input_padding()
 
         # Button to check the answer
-        self.check_button = Button(text="Check Answer", font_size=22, background_color=(0.1, 0.6, 0.8, 1), color=(1, 1, 1, 1))
+        self.check_button = Button(text="Check Answer", font_size=52, background_color=(0.1, 0.6, 0.8, 1), color=(1, 1, 1, 1))
         self.check_button.bind(on_press=self.check_answer)
         self.layout.add_widget(self.check_button)
 
         # Button to mark the verb as learned
-        self.learn_button = Button(text="I Learned the Verb", font_size=22, background_color=(0.1, 0.7, 0.3, 1), color=(1, 1, 1, 1))
+        self.learn_button = Button(text="I Learned the Verb", font_size=52, background_color=(0.1, 0.7, 0.3, 1), color=(1, 1, 1, 1))
         self.learn_button.bind(on_press=self.learn_verb)
         self.layout.add_widget(self.learn_button)
 
         # Button to move to the next verb
-        self.next_button = Button(text="Next Verb", font_size=22, background_color=(0.8, 0.4, 0.4, 1), color=(1, 1, 1, 1))
+        self.next_button = Button(text="Next Verb", font_size=52, background_color=(0.8, 0.4, 0.4, 1), color=(1, 1, 1, 1))
         self.next_button.bind(on_press=self.next_verb)
         self.layout.add_widget(self.next_button)
 
