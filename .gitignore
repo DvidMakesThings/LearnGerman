@@ -1,5 +1,8 @@
 .idea/
 .buildozer/
-.venv/
+.vscode/settings.json
+venv/
 bin/
 dist/
+buildozer/
+Release_buildozer.spec
