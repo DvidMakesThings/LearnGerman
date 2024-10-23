@@ -19,55 +19,57 @@ This guide will help you set up the necessary environment and tools to build and
 
 3. **Install essential packages:**
     ```bash
-    sudo apt install python3 python3-pip python3-venv git
-    sudo apt install build-essential libssl-dev libffi-dev python3-dev
-    sudo apt install python3-kivy
+    sudo apt-get update
+    sudo apt-get install openjdk-8-jdk
+    sudo apt-get install unzip
+    sudo apt install python3 python3-pip ipython3
+    sudo apt install cython
+    sudo apt-get install autoconf
+    sudo apt install build-essential libltdl-dev libffi-dev libssl-dev python-dev
+    sudo pip3 install --upgrade cython
+    sudo apt-get install zip
+    ```
+
+    Check python version:
+    ```bash
+    python3 --version
+    ```
+    
+    If python version is lower than 3.8, 
+    Install Python 3.8 using the following command
+    ```bash
+    sudo apt install python3.8
+    ```
+
+    Update the alternatives to set Python 3.8 as the default Python version:
+    ```bash
+    sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+    sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
+    ```
+
+    Check the python version again. Now it should be 3.8:
+    ```bash
+    python3 --version
     ```
 
 4. **Install Buildozer:**
     ```bash
-    pip3 install --user buildozer
-    echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
-    source ~/.bashrc
+    git clone https://github.com/kivy/buildozer.git
+    cd buildozer
+    sudo python3 setup.py install
     ```
 
 5. **Initialize Buildozer:**
     ```bash
-    cd /mnt/c/Users/sdvid/Documents/Python/LearnGerman
+    cd /mnt/PathToProjectFolder
     buildozer init
-    ```
-
-6. **Install additional dependencies:**
-    ```bash
-    sudo apt-get install zlib1g-dev
-    pip3 install --user cython
-    sudo apt-get install openjdk-8-jdk
-    sudo apt-get install unzip
-    ```
-
-7. **Configure Android SDK:**
-    ```bash
-    cd /home/sipos/.buildozer/android/platform/android-sdk
-    mkdir -p cmdline-tools/latest
-    mv tools/cmdline-tools/* cmdline-tools/latest/
-    rm -rf tools/cmdline-tools
-    cd cmdline-tools/latest/bin
-    yes | ./sdkmanager --licenses
-    ./sdkmanager "platform-tools" "platforms;android-28" "build-tools;28.0.3"
-    ```
-
-8. **Install additional tools:**
-    ```bash
-    sudo apt-get install autoconf
-    sudo apt-get install libtool
-    sudo apt-get install zip
     ```
 
 ## Building the Project
 
 Navigate to the project directory and build the project:
 ```bash
-cd /mnt/c/Users/sdvid/Documents/Python/LearnGerman
+cd /mnt/PathToProjectFolder
 buildozer -v android debug
 ```
 
