@@ -122,3 +122,8 @@ buildozer -v android debug
 ```
 
 Follow these steps to set up your environment and build the project successfully.
+
+## Contact
+For any questions or feedback, please contact:
+- Email: [s.dvid@hotmail.com](mailto:s.dvid@hotmail.com)
+- GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)
